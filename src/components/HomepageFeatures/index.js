@@ -18,7 +18,7 @@ const FeatureList = [
     Svg: require('@site/static/img/wrappid_logo_full.svg').default,
     description: (
       <>
-        Power your project with wrappid, code once, and we&apos;ll do the chores to build for Web, Android and Web. Go
+        Power your project with wrappid, code once, and we&apos;ll do the chores to build for Web, Android and iOS. Go
         ahead and get started with wrappid.
       </>
     ),
