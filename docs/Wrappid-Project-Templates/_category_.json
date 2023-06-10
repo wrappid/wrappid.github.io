@@ -1,0 +1,10 @@
+{
+  "label": "Wrappid Project Templates",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "
+    Wrappid Framework supports building frontend, backend (API middleware & DB handling) and business specific modules. The framework helps generate the below:
+"
+  }
+}
