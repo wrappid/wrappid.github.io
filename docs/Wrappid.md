@@ -174,20 +174,6 @@ wrappid init <project_name>
 This will create 3 `Wrappid` projects with project names [`<project_name>-app`](#1. Frontend - `<wrappid>-app`), [`<project_name>-module`](#2. Backend - `<wrappid>-service`) and [`<project_name>-service`](#3. Modules - `<wrappid>-module`) 
 <!-- This will create 3 `Wrappid` projects with default project names `wrappid-app`, `wrappid-module` and `wrappid-service` -->
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
 ## Start Your App
 
 Run the development server for web:
