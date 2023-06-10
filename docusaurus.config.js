@@ -121,7 +121,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Wrappid. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Wrappid.`,
       },
       prism: {
         theme: lightCodeTheme,
