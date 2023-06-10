@@ -42,7 +42,7 @@ jobs:
         run: npm install --frozen-lockfile --non-interactive
 
       - name: Build
-        run: npm build
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v1
