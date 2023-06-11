@@ -104,6 +104,10 @@ const config = {
               {
                 label: 'Github',
                 href: 'https://github.com/orgs/wrappid/discussions',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/MEwNdQ5zNM'
               }
             ],
           },
