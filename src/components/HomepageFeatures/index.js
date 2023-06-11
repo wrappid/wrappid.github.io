@@ -24,12 +24,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Community Driven',
+    title: 'Powered By',
     Svg: require('@site/static/img/wrappid_logo_full.svg').default,
     description: (
       <>
-        Wrappid is Open Source Framework, community driven,
-        powered by React and React-Navite.
+        React and React-Navite.
       </>
     ),
   },
