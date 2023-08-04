@@ -43,6 +43,8 @@ jobs:
         run: |
           cd docs
           gh repo clone wrappid/docs
+        env:
+          GH_TOKEN: ${{ github.token }}
 
       - name: Setup wrappid components
         run: | 
