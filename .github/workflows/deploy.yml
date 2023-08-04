@@ -49,7 +49,7 @@ jobs:
       - name: Setup wrappid components
         run: | 
           cd docs
-          cp -r docs/components ./"Wrappid-Components"
+          cp -r docs/components ./"Wrappid Components"
           rm -rf docs
 
       - name: Install dependencies
