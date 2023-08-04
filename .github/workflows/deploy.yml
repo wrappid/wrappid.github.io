@@ -8,6 +8,7 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+  repository_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -37,6 +38,17 @@ jobs:
         with:
           node-version: 16.x
           cache: npm
+
+      - name: Fetch wrappid components
+        run: |
+          cd docs
+          gh repo clone wrappid/docs
+
+      - name: Setup wrappid components
+        run: | 
+          cd docs
+          cp -r docs/components ./"Wrappid-Components"
+          rm -rf docs
 
       - name: Install dependencies
         run: npm install --frozen-lockfile --non-interactive
